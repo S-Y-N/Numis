@@ -1,0 +1,69 @@
+@import "reset.css";
+@import "fonts.css";
+@import "login.css";
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.15;
+}
+
+.header {
+    background-color: #0a0a0a;
+    min-height: 100px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    font-size: 24px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 0 30px;
+}
+
+.menu__list-item:hover {
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: #0a0a0a;
+    min-height: 100px;
+    color: #fff;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 18px;
+}
