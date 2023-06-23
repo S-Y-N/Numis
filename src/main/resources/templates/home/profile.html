@@ -1,0 +1,33 @@
+<div th:replace="~{layout::layout(~{::content})}">
+  <div th:fragment="content" class="wrapper">
+    <h2 class="hello-profile">Hello +name</h2>
+    <table class="profile-table">
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Password</th>
+      </tr>
+      <tr>
+        <td>name</td>
+        <td>ex@gmail.com</td>
+        <td>12345</td>
+      </tr>
+    </table>
+    <h3>Update Profile</h3>
+    <form action="">
+      <div class="profile-form">
+        <label for="username_txt">Username</label>
+        <input type="text" name="username" id="username_txt" placeholder="Enter new username">
+        <label for="email_txt">Email</label>
+        <input type="email" name="email" id="email_txt" placeholder="Enter new email">
+        <label for="pass_txt">Password</label>
+        <input type="password" name="pass_txt" id="pass_txt" placeholder="Enter new password">
+        <label for="passwordConfirm">Password Confirmation</label>
+        <input type="password" name="passwordConfirm" id="passwordConfirm"
+               placeholder="Confirm your password">
+      </div>
+      <button type="submit">Update</button>
+    </form>
+  </div>
+</div>
+

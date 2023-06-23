@@ -1,0 +1,12 @@
+<div th:replace="~{layout::layout(~{::content})}">
+  <div th:fragment="content" class="wrapper">
+      <form action="#" method="get">
+          <div class="search">
+              <label for="site-search">Пошук по каталогу</label>
+              <input type="search" id="site-search" name="q" placeholder="Enter text">
+              <button>Пошук</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>

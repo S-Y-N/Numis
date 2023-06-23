@@ -1,11 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home Page</title>
-</head>
-<body>
-<h1>Home Page</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam enim est explicabo molestias mollitia officia praesentium soluta. Dolor earum eligendi expedita ipsam odit officia quo, recusandae? Aspernatur, dolorum, eligendi!</p>
-</body>
-</html>
+<div th:replace="~{layout::layout(~{::content})}">
+    <div th:fragment="content" class="wrapper">
+        <div class="main">
+            <h1>Home Page</h1>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" th:src="@{/img/nbu.jpg}" alt="NBU Coins">
+                        <div class="card-body">
+                            <h5 class="card-title">Колиска в батьківському будинку, мальви та хлопчик-космонавт – нова пам'ятна монета від НБУ</h5>
+                            <p class="card-text">Міжнародний день захисту дітей завжди відзначається весело. Щороку в українських дітей він асоціювався з різнокольоровими.</p>
+                            <a href="#" class="btn btn-primary">Читати</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" th:src="@{/img/imperial.jpg}" alt="Text 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Напівімперіали Олександра III 1886 – 1894 років.</h5>
+                            <p class="card-text">Монеты Российской империи правления Александра III, предистория, описание монет и разновидностей, полная аналитика цен.</p>
+                            <a href="#" class="btn btn-primary">Читати</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" th:src="@{/img/taler.jpg}" alt="Text 3">
+                    <div class="card-body">
+                        <h5 class="card-title">4 Дуката 1912 року. Австро-Угорщина</h5>
+                        <p class="card-text">Монеты Австрии и Австро-Венгрии - это интереснейший и популярный раздел нумизматики. И сегодня будет представлена прекрасная...</p>
+                        <a href="https://violity.com/ru/publication/1750-4-dukata-1912-goda-avstro-vengriya?category=collecting" class="btn btn-primary">Читати</a>
+                    </div>
+                </div></div>
+                ...
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</div>
+
+
