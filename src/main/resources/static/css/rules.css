@@ -1,0 +1,58 @@
+.rules {
+    padding: 50px 0;
+}
+
+.rules__title-main {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.rules__list-menu {
+    font-size: 28px;
+    margin: 0 0 40px 30px;
+}
+
+.rules__list-item-menu {
+    margin: 15px 0;
+}
+
+.rules__list-item a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.rules__title {
+    font-size: 28px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.rules__text {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 29px;
+    color: #777777;
+    text-align: justify;
+}
+
+.rules__text b {
+    color: #000;
+}
+
+.rules__list {
+    margin-left: 60px;
+    font-size: 16px;
+    color: #777777;
+}
+
+.rules__list-item {
+    margin-bottom: 20px;
+}
+
+.rules__list-item span {
+    position: relative;
+    left: 20px;
+}
+
+.rules__list-item::marker {
+    content: "●";
+}

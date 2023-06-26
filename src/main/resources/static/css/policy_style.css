@@ -1,0 +1,32 @@
+.policy_title-main {
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+.policy_subtitle {
+    font-size: 14px;
+    opacity: 0.7;
+    padding: 15px 0;
+}
+
+.policy__title {
+    font-size: 28px;
+    padding: 40px 0;
+}
+
+.policy__text {
+    text-align: justify;
+    color: #777777;
+    line-height: 29px;
+    margin: 30px 0;
+}
+
+.policy__list {
+    margin-left: 30px;
+    color: #777777;
+}
+
+.policy__list-item {
+    padding: 10px 0;
+    list-style: circle;
+}

@@ -13,7 +13,7 @@ public class HomeController {
 
     @GetMapping("/catalog")
     public String getCatalog(){return "home/catalog";}
-    @GetMapping("/mycollection")
+    @GetMapping("/collection")
     public String getCollection(){return "home/collection";}
     @GetMapping("/info")
     public String getInfo(){return "home/info";}
@@ -21,6 +21,10 @@ public class HomeController {
     public String getProfile(){return "home/profile";}
     @GetMapping("/search")
     public String getSearch(){return "home/search";}
+    @GetMapping("/policy")
+    public String getPolicy(){return "home/policy";}
+    @GetMapping("/rules")
+    public String getRules(){return "home/rules";}
 
     @GetMapping("/enter")
     public String getEnter(){return "user/login";}

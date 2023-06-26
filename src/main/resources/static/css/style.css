@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "fonts.css";
 @import "login.css";
+@import "policy_style.css";
+@import "rules.css";
 
 .wrapper {
     min-height: 100%;
