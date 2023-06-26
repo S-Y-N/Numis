@@ -3,6 +3,7 @@
 @import "login.css";
 @import "policy_style.css";
 @import "rules.css";
+@import "card.css";
 
 .wrapper {
     min-height: 100%;
@@ -90,7 +91,7 @@ body {
 }
 
 /*PROFILE*/
-.hello-profile, h3 {
+.hello-profile,.upd_profile {
     font-size: 32px;
     text-align: center;
     padding-top: 30px;

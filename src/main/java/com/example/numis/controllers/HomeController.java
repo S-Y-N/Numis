@@ -26,6 +26,7 @@ public class HomeController {
     @GetMapping("/rules")
     public String getRules(){return "home/rules";}
 
+
     @GetMapping("/enter")
     public String getEnter(){return "user/login";}
 
