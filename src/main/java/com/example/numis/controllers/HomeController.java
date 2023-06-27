@@ -11,8 +11,6 @@ public class HomeController {
     @GetMapping("/blog")
     public String getBlog(){return "home/blog";}
 
-    @GetMapping("/catalog")
-    public String getCatalog(){return "home/catalog";}
     @GetMapping("/collection")
     public String getCollection(){return "home/collection";}
     @GetMapping("/info")

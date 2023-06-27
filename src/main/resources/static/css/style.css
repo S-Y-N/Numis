@@ -4,6 +4,7 @@
 @import "policy_style.css";
 @import "rules.css";
 @import "card.css";
+@import "coins.css";
 
 .wrapper {
     min-height: 100%;
