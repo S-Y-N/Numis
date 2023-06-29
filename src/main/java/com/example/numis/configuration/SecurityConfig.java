@@ -25,6 +25,7 @@ public class SecurityConfig {
                                 "/registration*",
                                 "/login*",
                                 "/css/**",
+                                "/catal*/**",
                                 "/img/**")
                         .permitAll()
                         .anyRequest()

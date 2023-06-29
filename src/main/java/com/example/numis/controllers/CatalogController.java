@@ -16,4 +16,10 @@ public class CatalogController {
     public String getCoinSecond(){return "catal/coins-second";}
     @GetMapping("/catalog/coins-third")
     public String getCoinThird(){return "catal/coins-third";}
+    @GetMapping("/catalog/ubiley")
+    public String getCoinUbiley(){return "catal/ubiley";}
+    @GetMapping("/catalog/coins-locale")
+    public String getCoinLocale(){return "catal/coins-locale";}
+    @GetMapping("/catalog/coins-prob")
+    public String getCoinProbniy(){return "catal/coins-prob";}
 }
