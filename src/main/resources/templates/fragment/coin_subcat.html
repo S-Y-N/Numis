@@ -1,0 +1,32 @@
+<div th:fragment="coin_subcat" class="wrapper">
+  <div class="container">
+    <div class="sub-coins">
+
+      <div class="sub-coin">
+        <a href="coin_desc.html" class="sub-coin__img"> <img src="../assets/img/coins/first/1924.png"
+                                                             alt="1924 year"></a>
+        <h3 class="sub-coin__title">1 рубль</h3>
+        <div class="coin_info">
+          <p class="coin_year">Год : <span>1924</span></p>
+          <p class="coin_price">Цена: <span>50$</span></p>
+        </div>
+        <div class="coin_grade">
+          <label for="grade" class="coin_grade-text">Состояние:</label>
+          <select name="grade" id="grade">
+            <option disabled selected value></option>
+            <option value="ndef">-</option>
+            <option value="good">good</option>
+            <option value="verygood">very good</option>
+            <option value="fine">fine</option>
+            <option value="vfine">very fine</option>
+            <option value="xfine">extremely fine</option>
+            <option value="unc">uncirculated</option>
+            <option value="proof">proof</option>
+            <option value="copy">copy</option>
+          </select>
+        </div>
+        <button class="sub-coin__btn">Разновидности</button>
+      </div>
+    </div>
+  </div>
+</div>

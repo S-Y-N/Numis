@@ -1,0 +1,73 @@
+.sub-coins {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sub-coin {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 0;
+    margin: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    width: 380px;
+    min-width: 380px;
+}
+
+.sub-coin__img {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.sub-coin__title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.coin_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.coin_year span {
+    font-weight: 600;
+}
+
+.coin_price span {
+    font-weight: 600;
+}
+
+.coin_grade-text {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.coin_grade {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-coin__btn {
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    color: #e09c08;
+    background: rgb(36, 36, 36);
+    padding: 5px 0;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

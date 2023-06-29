@@ -5,6 +5,8 @@
 @import "rules.css";
 @import "card.css";
 @import "coins.css";
+@import "coin_subcat.css";
+@import "coin_desc.css";
 
 .wrapper {
     min-height: 100%;

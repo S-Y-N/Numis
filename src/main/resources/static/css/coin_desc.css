@@ -1,0 +1,16 @@
+.coin_desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.coin_desc table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+.coin_desc th {
+    text-align: left;
+}
